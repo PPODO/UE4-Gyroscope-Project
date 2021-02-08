@@ -13,4 +13,8 @@ public:
 protected:
 	virtual void BeginPlay() override;
 
+private:
+	TSubclassOf<class UUserWidget> m_androidUMGClass;
+	class UUserWidget* m_pAndroidUMGInstance;
+
 };
