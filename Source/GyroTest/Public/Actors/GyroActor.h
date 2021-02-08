@@ -25,4 +25,6 @@ private:
 	UPROPERTY(VisibleDefaultsOnly)
 		class USocketComponent* m_pSocketComponent;
 
+	FVector m_vPrevData;
+
 };
